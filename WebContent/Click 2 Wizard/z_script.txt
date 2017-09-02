@@ -1,0 +1,85 @@
+<!-- START PLUGINS -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>        
+        <!-- END PLUGINS -->
+
+        <!-- START THIS PAGE PLUGINS-->        
+        <script type='text/javascript' src='js/icheck.min.js'></script>        
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+        <script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+        
+        <script type="text/javascript" src="js/raphael-min.js"></script>
+        <script type="text/javascript" src="js/morris.min.js"></script>       
+        <script type="text/javascript" src="js/d3.v3.js"></script>
+        <script type="text/javascript" src="js/rickshaw.min.js"></script>
+        <script type='text/javascript' src='js/jquery-jvectormap-1.2.2.min.js'></script>
+        <script type='text/javascript' src='js/jquery-jvectormap-world-mill-en.js'></script>                
+        <script type='text/javascript' src='js/bootstrap-datepicker.js'></script>         
+        <script type='text/javascript' src='js/bootstrap-select.js'></script>
+		
+        <script type='text/javascript' src='js/jquery.validationEngine-en.js'></script>
+        <script type='text/javascript' src='js/jquery.validationEngine.js'></script>   
+        <script type='text/javascript' src='js/jquery.validate.js'></script>    
+        <script type='text/javascript' src='js/jquery.maskedinput.min.js'></script> 
+		
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>                 
+        
+        <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/daterangepicker.js"></script>
+        <!-- END THIS PAGE PLUGINS-->        
+
+        <!-- START TEMPLATE -->
+        <!-- <script type="text/javascript" src="js/settings.js"></script> -->
+        
+        <script type="text/javascript" src="js/plugins.js"></script>        
+        <script type="text/javascript" src="js/actions.js"></script>
+        
+        <script type="text/javascript" src="js/demo_dashboard.js"></script>
+        <!-- END TEMPLATE -->
+		
+		<script type="text/javascript">
+            var jvalidate = $("#jvalidate").validate({
+                ignore: [],
+                rules: {                                            
+                        login: {
+                                required: true,
+                                minlength: 2,
+                                maxlength: 8
+                        },
+                        password: {
+                                required: true,
+                                minlength: 5,
+                                maxlength: 10
+                        },
+                        're-password': {
+                                required: true,
+                                minlength: 5,
+                                maxlength: 10,
+                                equalTo: "#password2"
+                        },
+                        age: {
+                                required: true,
+                                min: 18,
+                                max: 100
+                        },
+                        email: {
+                                required: true,
+                                email: true
+                        },
+                        date: {
+                                required: true,
+                                date: true
+                        },
+                        credit: {
+                                required: true,
+                                creditcard: true
+                        },
+                        site: {
+                                required: true,
+                                url: true
+                        }
+                    }                                        
+                });                                    
+
+        </script>

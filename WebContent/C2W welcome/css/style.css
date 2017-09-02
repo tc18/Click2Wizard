@@ -1,0 +1,65 @@
+.block
+{
+	border: none;
+	padding: 10px;
+	margin: 10px;
+	height: 120px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.block:hover
+{
+	background-color: #fff;
+	box-shadow:5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.pro_name
+{
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	height: 33px;
+	border: none;
+	text-align: left;
+	padding-left: 30px;
+	color:#fff;
+}
+.pro_name:hover
+{
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+.search1
+{
+	font-family: "Ubuntu Mono", sans-serif;
+	width:170px;
+	font-size: 16px;
+	color: black;
+	background: none;
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	min-height: 28px;
+	padding: 0;
+	margin-left: 20px;
+}
+.search1:focus
+{
+	border: none;
+}
+
+.table-1
+{
+	padding: 5px;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px 5px 0 0;
+}
+@media ( max-width :350px) {
+	.search1 {
+	}
+}
+
+
+.insert_option
+{
+	font-size: 16px;
+}
