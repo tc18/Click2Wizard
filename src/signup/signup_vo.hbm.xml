@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="signup.signup_vo" table="user_data">
+
+		<id name="id" type="int" column="ID">
+			<generator class="increment" />
+		</id>
+
+		<property name="fn">
+			<column name="fname" />
+		</property>
+
+		<property name="ln">
+			<column name="lname" />
+		</property>
+		
+		<property name="email">
+			<column name="email" />
+		</property>
+		
+		<property name="pw">
+			<column name="password" />
+		</property>
+		
+		<property name="pn">
+			<column name="phno" />
+		</property>
+		
+		<property name="cn">
+			<column name="country" />
+		</property>
+		
+		<property name="que">
+			<column name="que" />
+		</property>
+		
+		<property name="ans">
+			<column name="ans" />
+		</property>
+	</class>
+</hibernate-mapping>
